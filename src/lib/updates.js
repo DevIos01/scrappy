@@ -67,7 +67,7 @@ export const createUpdate = async (files = [], channel, ts, user, text) => {
       muxAssetIDs: videos,
       muxPlaybackIDs: videoPlaybackIds,
       isLargeVideo: attachments.some(
-        (attachment) => attachment.url === "https://i.imgur.com/UkXMexG.mp4"
+        (attachment) => attachment.url === "https://cloud-h1wvrbj1u-hack-club-bot.vercel.app/1UkXMexG.mp4"
       ),
       channel: channel,
     },

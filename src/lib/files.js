@@ -45,7 +45,7 @@ export const getPublicFileUrl = async (urlPrivate, channel, user) => {
         playback_policy: "public",
       });
       return {
-        url: "https://i.imgur.com/UkXMexG.mp4",
+        url: "https://cloud-h1wvrbj1u-hack-club-bot.vercel.app/0UkXMexG.mp4",
         muxId: asset.id,
         muxPlaybackId: asset.playback_ids[0].id,
       };

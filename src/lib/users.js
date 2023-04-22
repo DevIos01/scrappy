@@ -45,14 +45,14 @@ export const getUserRecord = async (userId) => {
     });
     if (!user.profile.is_custom_image) {
       const animalImages = [
-        "https://i.imgur.com/njP1JWx.jpg",
-        "https://i.imgur.com/NdOZWDB.jpg",
-        "https://i.imgur.com/l8dV3DJ.jpg",
-        "https://i.imgur.com/Ej6Ovlq.jpg",
-        "https://i.imgur.com/VG29lvI.jpg",
-        "https://i.imgur.com/tDusvvD.jpg",
-        "https://i.imgur.com/63H1hQM.jpg",
-        "https://i.imgur.com/xGtLTa3.png",
+        "https://cloud-h1wvrbj1u-hack-club-bot.vercel.app/2njP1JWx.jpg",
+        "https://cloud-h1wvrbj1u-hack-club-bot.vercel.app/3NdOZWDB.jpg",
+        "https://cloud-h1wvrbj1u-hack-club-bot.vercel.app/4l8dV3DJ.jpg",
+        "https://cloud-h1wvrbj1u-hack-club-bot.vercel.app/5Ej6Ovlq.jpg",
+        "https://cloud-h1wvrbj1u-hack-club-bot.vercel.app/6VG29lvI.jpg",
+        "https://cloud-h1wvrbj1u-hack-club-bot.vercel.app/7tDusvvD.jpg",
+        "https://cloud-h1wvrbj1u-hack-club-bot.vercel.app/863H1hQM.jpg",
+        "https://cloud-h1wvrbj1u-hack-club-bot.vercel.app/9xGtLTa3.png",
       ];
       const animalImage = sample(animalImages);
       await prisma.accounts.update({
